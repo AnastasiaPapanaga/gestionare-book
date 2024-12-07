@@ -1,0 +1,72 @@
+/* Stiluri pentru aplicație */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* Albastre deschise */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #1e3a8a; /* Albastru închis */
+  text-align: center;
+}
+
+h2 {
+  color: #3b82f6; /* Albastru deschis */
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #1e3a8a;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #1e3a8a; /* Albastru închis */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #2563eb; /* Albastru mai deschis */
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid #dbeafe;
+  border-radius: 5px;
+  background-color: #e0f2fe;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.card h3 {
+  color: #1e40af;
+}
+
+.card p {
+  color: #1e3a8a;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.details {
+  background-color: #dbeafe;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
